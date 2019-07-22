@@ -1,0 +1,7 @@
+# Excel MEMO
+
+## Sheet name
+
+```VBA
+RIGHT(CELL("filename",A1),LEN(CELL("filename",A1))-FIND("]",CELL("filename",A1)))
+```
